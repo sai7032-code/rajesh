@@ -251,61 +251,58 @@ export default function App() {
         </ul>
       </section>
 
-      {/* Contact Section */}
-      <section
-        id="contact"
-        className="bg-gradient-to-r from-[#081b2e] via-[#162447] to-[#081b2e] text-white p-12 text-center"
-      >
-        <h2 className="text-3xl font-bold mb-6">📬 Get in Touch</h2>
-        <p className="mb-2">
-          📧{" "}
-          <a
-            href="mailto:rajeshgalipeli123@gmail.com"
-            className="hover:underline text-amber-400"
-          >
-            rajeshgalipeli123@gmail.com
-          </a>
-        </p>
-        <p className="mb-2">
-          📞{" "}
-          <a
-            href="tel:+919848776478"
-            className="hover:underline text-amber-400"
-          >
-            +91 9848776478
-          </a>
-        </p>
-        <div className="flex justify-center gap-6 mt-6">
-          <a
-            href="mailto:rajeshgalipeli123@gmail.com"
-            className="hover:text-amber-300 transition"
-          >
-            <MdEmail size={30} />
-          </a>
-          <a
-            href="tel:+919848776478"
-            className="hover:text-amber-300 transition"
-          >
-            <MdPhone size={30} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/rajesh-galipelli"
-            className="hover:text-amber-300 transition"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin size={30} />
-          </a>
-          <a
-            href="#"
-            className="hover:text-amber-300 transition"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub size={30} />
-          </a>
-        </div>
-      </section>
+     {/* Contact Section */}
+<section
+  id="contact"
+  className="bg-gradient-to-r from-[#081b2e] via-[#162447] to-[#081b2e] text-white p-12 text-center"
+>
+  <h2 className="text-3xl font-bold mb-6">📬 Get in Touch</h2>
+  <p className="mb-2">
+    📧{" "}
+    <a
+      href="mailto:rajeshgalipeli123@gmail.com"
+      className="hover:underline text-amber-400"
+    >
+      rajeshgalipeli123@gmail.com
+    </a>
+  </p>
+  <p className="mb-2">
+    📞{" "}
+    <a href="tel:+919848776478" className="hover:underline text-amber-400">
+      +91 9848776478
+    </a>
+  </p>
+  <div className="flex justify-center gap-6 mt-6">
+    <a
+      href="mailto:rajeshgalipeli123@gmail.com"
+      className="hover:text-amber-300 transition"
+    >
+      <MdEmail size={30} />
+    </a>
+    <a
+      href="tel:+919848776478"
+      className="hover:text-amber-300 transition"
+    >
+      <MdPhone size={30} />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/rajesh-galipelli"
+      className="hover:text-amber-300 transition"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <FaLinkedin size={30} />
+    </a>
+    <a
+      href="https://github.com/rajeshgalipelli"
+      className="hover:text-amber-300 transition"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <FaGithub size={30} />
+    </a>
+  </div>
+</section>
     </main>
   );
 }
