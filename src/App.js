@@ -294,7 +294,7 @@ export default function App() {
       <FaLinkedin size={30} />
     </a>
     <a
-      href="https://github.com/rajeshgalipelli"
+      href="https://github.com/RajeshGalipelli"
       className="hover:text-amber-300 transition"
       target="_blank"
       rel="noreferrer"
